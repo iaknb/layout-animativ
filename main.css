@@ -163,7 +163,7 @@ li {
   font-weight: bold;
 }
 
-.restaurant .listfoodmenu .prize {
+.restaurant .listfoodmenu .price {
   font-weight: bold;
   font-size: 26px;
   text-align: right;
@@ -214,7 +214,7 @@ li {
   background-color: #FFFFFF;
 }
 
-.restaurant .todayspecial .firstoffer .textfirstoffer .prize {
+.restaurant .todayspecial .firstoffer .textfirstoffer .price {
   color: #FEA100;
 }
 
@@ -241,7 +241,7 @@ li {
   font-size: 22px;
 }
 
-.restaurant .todayspecial .secondoffer .textsecondoffer .prize {
+.restaurant .todayspecial .secondoffer .textsecondoffer .price {
   color: #FEA100;
 }
 
