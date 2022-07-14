@@ -59,7 +59,7 @@ li {
 }
 
 
-.textbook {
+.text-book {
     width: 136px;
     height: 14px;
     color: #FFFFFF;
@@ -67,7 +67,7 @@ li {
     font-size: 14px;
 }
 
-.imgbook {
+.img-book {
     width: 21px;
     height: 17px;
     margin-right: 13px;
@@ -84,30 +84,30 @@ li {
 }
 
 
-.imgmain {
+.img-main {
     margin-top: 115px;
 }
 
-.textmain {
+.text-main {
     margin-top: 100px;
 }
 
-.toptextmain {
+.top-text-main {
     font-size: 62px;
 }
 
-.lowertextmain {
+.lower-text-main {
     font-size: 42px;
     margin-bottom: 91px;
 }
 
-.textphone {
+.text-phone {
     margin-top: 19px;
     color: #FEA100;
     font-size: 14px;
 }
 
-.numberphone {
+.number-phone {
     font-size: 36px;
 }
 /* \/\/\/  FOODMENU  \/\/\/ */
@@ -123,7 +123,7 @@ li {
         padding-right: 70px;
         width: 20%;
 
-        .buttonfoodmenu {
+        .button-foodmenu {
             margin-left: 5px;
             color: #FFFFFF;
             width: 200px;
@@ -143,11 +143,11 @@ li {
         margin: 0;
        }
 
-    .titlefoodmenu {
+    .title-foodmenu {
         font-size: 35px;
         margin-left: 5px;
     }
-    .listfoodmenu {
+    .list-foodmenu {
 
         li {
             display: flex;
@@ -182,15 +182,15 @@ li {
     .todayspecial {
         width: 20%;
         position: relative;
-        .titletodayspecial {
+        .title-todayspecial {
             font-size: 35px;
         }
-        .firstoffer {
+        .first-offer {
             -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
             -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
             box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
             position: absolute;
-            .imgfirstoffer {
+            .img-first-offer {
                 width: 320px;
                 height: 210px;
                 background-color: #7D8587;
@@ -200,7 +200,7 @@ li {
                 justify-content: center;
                 text-align: center;
             }
-            .textfirstoffer {
+            .text-first-offer {
                 padding: 20px;
                 font-weight: bold;
                 font-size: 22px;
@@ -210,11 +210,11 @@ li {
                 }
             }
         }
-        .secondoffer {
+        .second-offer {
             z-index: 9;
             margin-left: 280px;
             margin-top: 15px;
-            .imgsecondoffer {
+            .img-second-offer {
                 width: 320px;
                 height: 172px;
                 background-color: #7D8587;
@@ -224,7 +224,7 @@ li {
                 justify-content: center;
                 text-align: center;
             }
-            .textsecondoffer {
+            .text-second-offer {
                 padding: 20px;
                 font-weight: bold;
                 font-size: 22px;
@@ -255,7 +255,7 @@ li {
     }
 
 
-    .titlereservation {
+    .title-reservation {
         font-size: 35px;
         text-align: center;
         display: block;
@@ -276,7 +276,7 @@ li {
         display: flex;
     }
 
-    .buttonreservation {
+    .button-reservation {
         color: #FFFFFF;
         width: 200px;
         height: 45px;
@@ -288,7 +288,7 @@ li {
         justify-content: center;
         margin-right: 60px;
     }
-    .textreservation {
+    .text-reservation {
         justify-content: center;
         font-size: 16px;
         color: #FFFFFF;
@@ -298,12 +298,12 @@ li {
             color: rgba(247, 85, 180, 0.966);
         }
     }
-    .numberreservation {
+    .number-reservation {
         
         color: #FFFFFF;
         font-size: 25px;
         padding-left: 20px;
-        border-left: 0,6px solid #ad4c7d;
+        border-left: 1px solid #ad4c7d;
     }
 }
 
@@ -322,13 +322,13 @@ li {
     width: 100vw;
 }
 
-.imgclients {
+.img-clients {
     width: 269px;
     height: 295px;
     background-color:  #7D8587;
 }
 
-.textclients {
+.text-clients {
     padding-left: 65px;
 }
 
@@ -367,7 +367,7 @@ li {
     background-color: #EDF1F3;
 }
 
-.textgallery {
+.text-gallery {
     padding-top: 97.5px;
     padding-bottom: 26.5px;
     text-align: center;
@@ -438,7 +438,7 @@ li {
             text-align: center;
         }
     }
-    .imghours {
+    .img-hours {
 
     }
 }

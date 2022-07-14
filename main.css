@@ -60,7 +60,7 @@ li {
   margin-left: 34px;
 }
 
-.textbook {
+.text-book {
   width: 136px;
   height: 14px;
   color: #FFFFFF;
@@ -68,7 +68,7 @@ li {
   font-size: 14px;
 }
 
-.imgbook {
+.img-book {
   width: 21px;
   height: 17px;
   margin-right: 13px;
@@ -83,30 +83,30 @@ li {
   justify-content: center;
 }
 
-.imgmain {
+.img-main {
   margin-top: 115px;
 }
 
-.textmain {
+.text-main {
   margin-top: 100px;
 }
 
-.toptextmain {
+.top-text-main {
   font-size: 62px;
 }
 
-.lowertextmain {
+.lower-text-main {
   font-size: 42px;
   margin-bottom: 91px;
 }
 
-.textphone {
+.text-phone {
   margin-top: 19px;
   color: #FEA100;
   font-size: 14px;
 }
 
-.numberphone {
+.number-phone {
   font-size: 36px;
 }
 
@@ -123,7 +123,7 @@ li {
   width: 20%;
 }
 
-.restaurant .foodmenu .buttonfoodmenu {
+.restaurant .foodmenu .button-foodmenu {
   margin-left: 5px;
   color: #FFFFFF;
   width: 200px;
@@ -142,40 +142,40 @@ li {
   margin: 0;
 }
 
-.restaurant .titlefoodmenu {
+.restaurant .title-foodmenu {
   font-size: 35px;
   margin-left: 5px;
 }
 
-.restaurant .listfoodmenu li {
+.restaurant .list-foodmenu li {
   display: flex;
   padding-top: 23px;
   margin-bottom: 23px;
   border-top: 1px solid #a9aeaf;
 }
 
-.restaurant .listfoodmenu li:first-child {
+.restaurant .list-foodmenu li:first-child {
   border-top: none;
 }
 
-.restaurant .listfoodmenu .foodname {
+.restaurant .list-foodmenu .foodname {
   font-size: 16px;
   font-weight: bold;
 }
 
-.restaurant .listfoodmenu .price {
+.restaurant .list-foodmenu .price {
   font-weight: bold;
   font-size: 26px;
   text-align: right;
   margin-left: auto;
 }
 
-.restaurant .listfoodmenu .description {
+.restaurant .list-foodmenu .description {
   color: #5C6369;
   font-size: 14px;
 }
 
-.restaurant .listfoodmenu .firstline {
+.restaurant .list-foodmenu .firstline {
   display: flex;
   align-items: flex-end;
 }
@@ -185,18 +185,18 @@ li {
   position: relative;
 }
 
-.restaurant .todayspecial .titletodayspecial {
+.restaurant .todayspecial .title-todayspecial {
   font-size: 35px;
 }
 
-.restaurant .todayspecial .firstoffer {
+.restaurant .todayspecial .first-offer {
   -webkit-box-shadow: 8px 8px 24px 0px #42445a;
   -moz-box-shadow: 8px 8px 24px 0px #42445a;
   box-shadow: 8px 8px 24px 0px #42445a;
   position: absolute;
 }
 
-.restaurant .todayspecial .firstoffer .imgfirstoffer {
+.restaurant .todayspecial .first-offer .img-first-offer {
   width: 320px;
   height: 210px;
   background-color: #7D8587;
@@ -207,24 +207,24 @@ li {
   text-align: center;
 }
 
-.restaurant .todayspecial .firstoffer .textfirstoffer {
+.restaurant .todayspecial .first-offer .text-first-offer {
   padding: 20px;
   font-weight: bold;
   font-size: 22px;
   background-color: #FFFFFF;
 }
 
-.restaurant .todayspecial .firstoffer .textfirstoffer .price {
+.restaurant .todayspecial .first-offer .text-first-offer .price {
   color: #FEA100;
 }
 
-.restaurant .todayspecial .secondoffer {
+.restaurant .todayspecial .second-offer {
   z-index: 9;
   margin-left: 280px;
   margin-top: 15px;
 }
 
-.restaurant .todayspecial .secondoffer .imgsecondoffer {
+.restaurant .todayspecial .second-offer .img-second-offer {
   width: 320px;
   height: 172px;
   background-color: #7D8587;
@@ -235,13 +235,13 @@ li {
   text-align: center;
 }
 
-.restaurant .todayspecial .secondoffer .textsecondoffer {
+.restaurant .todayspecial .second-offer .text-second-offer {
   padding: 20px;
   font-weight: bold;
   font-size: 22px;
 }
 
-.restaurant .todayspecial .secondoffer .textsecondoffer .price {
+.restaurant .todayspecial .second-offer .text-second-offer .price {
   color: #FEA100;
 }
 
@@ -263,7 +263,7 @@ li {
   padding-left: 20px;
 }
 
-.reservation .titlereservation {
+.reservation .title-reservation {
   font-size: 35px;
   text-align: center;
   display: block;
@@ -285,7 +285,7 @@ li {
   display: flex;
 }
 
-.reservation .buttonreservation {
+.reservation .button-reservation {
   color: #FFFFFF;
   width: 200px;
   height: 45px;
@@ -298,22 +298,22 @@ li {
   margin-right: 60px;
 }
 
-.reservation .textreservation {
+.reservation .text-reservation {
   justify-content: center;
   font-size: 16px;
   color: #FFFFFF;
   margin-right: 10px;
 }
 
-.reservation .textreservation .pink {
+.reservation .text-reservation .pink {
   color: rgba(247, 85, 180, 0.966);
 }
 
-.reservation .numberreservation {
+.reservation .number-reservation {
   color: #FFFFFF;
   font-size: 25px;
   padding-left: 20px;
-  border-left: 0,6px solid #ad4c7d;
+  border-left: 1px solid #ad4c7d;
 }
 
 /* \/\/\/  HAPPY CLIENTS  \/\/\/ */
@@ -330,13 +330,13 @@ li {
   width: 100vw;
 }
 
-.imgclients {
+.img-clients {
   width: 269px;
   height: 295px;
   background-color: #7D8587;
 }
 
-.textclients {
+.text-clients {
   padding-left: 65px;
 }
 
@@ -368,7 +368,7 @@ li {
   background-color: #EDF1F3;
 }
 
-.textgallery {
+.text-gallery {
   padding-top: 97.5px;
   padding-bottom: 26.5px;
   text-align: center;
