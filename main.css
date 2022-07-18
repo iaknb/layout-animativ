@@ -72,7 +72,6 @@ li {
   width: 21px;
   height: 17px;
   margin-right: 13px;
-  background: transparent url("img/icon_plate.png") 0% 0% no-repeat padding-box;
 }
 
 /*  ^^ MENUBAR ^^ */
@@ -252,15 +251,24 @@ li {
   height: 518px;
   padding-top: 98px;
   align-items: center;
-}
-
-.reservation table {
   display: flex;
   justify-content: center;
 }
 
+.reservation .translate {
+  transform: translateY(-250px);
+  background-color: #FEA100;
+  width: 293px;
+  height: 293px;
+}
+
 .reservation td {
-  padding-left: 20px;
+  padding-right: 32px;
+}
+
+.reservation .container {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .reservation .title-reservation {
@@ -280,7 +288,6 @@ li {
 
 .reservation .lower {
   margin-top: 40px;
-  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -296,6 +303,7 @@ li {
   align-items: center;
   justify-content: center;
   margin-right: 60px;
+  margin-left: 8px;
 }
 
 .reservation .text-reservation {
@@ -362,13 +370,12 @@ li {
   display: flex;
 }
 
-/* RESERVE */
 /* \/\/\/  GALLERY  \/\/\/ */
 .gallery {
   background-color: #EDF1F3;
 }
 
-.text-gallery {
+.text-gallery > h1 {
   padding-top: 97.5px;
   padding-bottom: 26.5px;
   text-align: center;
@@ -431,15 +438,145 @@ li {
 
 .hours {
   display: flex;
-  text-align: center;
+  justify-content: space-between;
+  width: 50vw;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.hours .days {
-  display: flex;
-  text-align: center;
+.translate {
+  background-color: #FEA100;
+  width: 210px;
+  height: 210px;
 }
 
-.hours .days .montofri {
+.title-hours {
+  font-size: 35px;
+}
+
+.montofri {
+  align-items: center;
+  justify-content: center;
+  padding-right: 60px;
+}
+
+.text-hours {
+  font-size: 20px;
+  color: #373844;
+}
+
+.hour {
+  font-size: 30px;
+  color: #FEA100;
+}
+
+.weekend {
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
   display: flex;
-  text-align: center;
+}
+
+.third {
+  transform: translateY(50px);
+}
+
+/* \/\/\/  FOOTER  \/\/\/ */
+.color-footer {
+  background-color: #373844;
+}
+
+.footer {
+  height: 510px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.footer .nav .title-nav {
+  padding-left: 8px;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.footer .nav ul {
+  color: #ADB2B7;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .news .title-news {
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.footer .news .text-news {
+  font-size: 14px;
+  color: #ADB2B7;
+  padding-bottom: 20px;
+}
+
+.footer .news .buttons-news {
+  display: flex;
+}
+
+.footer .news .buttons-news .emailadd input[type=text] {
+  width: 300px;
+  height: 45px;
+  background-color: #373844;
+  border-radius: 2px;
+  outline: #52535E solid;
+  margin-right: 8px;
+}
+
+.footer .news .buttons-news .sub {
+  color: #FFFFFF;
+  width: 160px;
+  height: 50px;
+  background: #FEA100 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  outline: #FEA100 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+  margin-left: 8px;
+}
+
+.footer .apps .title-apps {
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.footer .apps .gray-button {
+  display: flex;
+  background-color: #52535E;
+  width: 220px;
+  height: 60px;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.footer .apps .gray-button .icon-button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer .apps .gray-button .higher-text-icon {
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.footer .apps .gray-button .lower-text-icon {
+  font-size: 18px;
+  color: #FFFFFF;
 }

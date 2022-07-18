@@ -71,7 +71,6 @@ li {
     width: 21px;
     height: 17px;
     margin-right: 13px;
-    background: transparent url('img/icon_plate.png') 0% 0% no-repeat padding-box;
 }
 
 /*  ^^ MENUBAR ^^ */
@@ -245,15 +244,23 @@ li {
     height: 518px;
     padding-top: 98px;
     align-items: center;
+    display: flex;
+    justify-content: center;
 
-    table {
-        display: flex;
-        justify-content: center;
+    .translate {
+        transform: translateY(-250px);
+        background-color:#FEA100;
+        width: 293px;
+        height: 293px;
     }
     td {
-        padding-left: 20px;
+        padding-right: 32px;
     }
 
+    .container {
+        width: fit-content;
+        margin: 0 auto;
+    }
 
     .title-reservation {
         font-size: 35px;
@@ -271,7 +278,6 @@ li {
 
     .lower {
         margin-top: 40px;
-        justify-content: center;
         align-items: center;
         display: flex;
     }
@@ -287,6 +293,7 @@ li {
         align-items: center;
         justify-content: center;
         margin-right: 60px;
+        margin-left: 8px;
     }
     .text-reservation {
         justify-content: center;
@@ -354,12 +361,6 @@ li {
     display: flex;
 }
 
-/* RESERVE */
-
-
-
-
-
 
 /* \/\/\/  GALLERY  \/\/\/ */
 
@@ -367,7 +368,7 @@ li {
     background-color: #EDF1F3;
 }
 
-.text-gallery {
+.text-gallery > h1 {
     padding-top: 97.5px;
     padding-bottom: 26.5px;
     text-align: center;
@@ -427,18 +428,137 @@ li {
     background-color: #FEA100;
 }
 
+
 .hours {
     display: flex;
-    text-align: center;
-    .days {
-        display: flex;
-        text-align: center;
-        .montofri {
+    justify-content: space-between;
+    width: 50vw;
+    margin: 0 auto;
+    align-items: center;
+}
+.translate {
+    background-color: #FEA100;
+    width: 210px;
+    height: 210px;
+}
+.title-hours {
+    font-size: 35px;
+}
+
+.montofri {
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+}
+.text-hours {
+    font-size: 20px;
+    color: #373844;
+}
+.hour {
+    font-size: 30px;
+    color: #FEA100;
+}
+
+.weekend {
+    align-items: center;
+    justify-content: center;
+}
+.days {
+    display: flex;
+}
+.third {
+    transform: translateY(50px);
+}
+
+/* \/\/\/  FOOTER  \/\/\/ */
+.color-footer {
+    background-color: #373844;
+}
+.footer {
+    height: 510px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin: 0 auto;
+    .nav {
+        .title-nav {
+            padding-left: 8px;
+            color: #FFFFFF;
+            font-size: 24px;
+            padding-bottom: 32px;
+        }
+        ul {
+            color: #ADB2B7;
+            font-size: 14px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+           }
+    }
+    .news {
+        .title-news {
+            font-size: 24px;
+            color: #FFFFFF;
+            padding-bottom: 32px;
+        }
+        .text-news {
+            font-size: 14px;
+            color: #ADB2B7;
+            padding-bottom: 20px;
+        }
+        .buttons-news {
             display: flex;
-            text-align: center;
+            .emailadd {
+                input[type=text] {
+                    width: 300px;
+                    height: 45px;
+                    background-color: #373844;
+                    border-radius: 2px;
+                    outline: #52535E solid;
+                    margin-right: 8px;
+                }
+            }
+            .sub {
+                color: #FFFFFF;
+                width: 160px;
+                height: 50px;
+                background: #FEA100 0% 0% no-repeat padding-box;
+                border-radius: 4px;
+                outline: #FEA100 solid;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 60px;
+                margin-left: 8px;
+            }
         }
     }
-    .img-hours {
-
+    .apps {
+        .title-apps {
+            font-size: 24px;
+            color: #FFFFFF;
+            padding-bottom: 32px;
+        }
+        .gray-button {
+            display: flex;
+            background-color: #52535E;
+            width: 220px;
+            height: 60px;
+            margin-bottom: 2px;
+            align-items: center;
+            .icon-button {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .higher-text-icon {
+                font-size: 11px;
+                color: #FFFFFF;
+            }
+            .lower-text-icon {
+                font-size: 18px;
+                color: #FFFFFF;
+            }
+        }
     }
 }
