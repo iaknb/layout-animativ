@@ -186,6 +186,7 @@ li {
 
 .restaurant .todayspecial .title-todayspecial {
   font-size: 35px;
+  padding-bottom: 10px;
 }
 
 .restaurant .todayspecial .first-offer {
@@ -257,9 +258,17 @@ li {
 
 .reservation .translate {
   transform: translateY(-250px);
-  background-color: #FEA100;
+  background-color: #7D8587;
   width: 293px;
   height: 293px;
+}
+
+.reservation .left {
+  margin-right: 25px;
+}
+
+.reservation .right {
+  transform: translateY(220px);
 }
 
 .reservation td {
@@ -311,6 +320,7 @@ li {
   font-size: 16px;
   color: #FFFFFF;
   margin-right: 10px;
+  margin-left: 8px;
 }
 
 .reservation .text-reservation .pink {
@@ -422,20 +432,25 @@ li {
 .dots {
   padding-top: 36px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .circle {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
   display: inline-block;
+  /* add this */
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #363D43;
 }
 
 .circle:hover {
-  background-color: #FEA100;
+  border-color: #FEA100;
 }
 
+/* OPENING HOURS */
 .hours {
   display: flex;
   justify-content: space-between;
@@ -445,7 +460,7 @@ li {
 }
 
 .translate {
-  background-color: #FEA100;
+  background-color: #7D8587;
   width: 210px;
   height: 210px;
 }
